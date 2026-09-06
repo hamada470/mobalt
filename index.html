@@ -31,7 +31,6 @@
             padding-bottom: 70px;
         }
 
-        /* Header */
         header {
             background: #fff;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -64,7 +63,6 @@
             font-weight: 700;
         }
 
-        /* Hero Section */
         .hero {
             background: linear-gradient(rgba(11, 77, 117, 0.9), rgba(11, 77, 117, 0.9)), #0b4d75;
             color: white;
@@ -108,18 +106,31 @@
         .btn-call { background-color: var(--secondary-color); color: white; }
         .btn-whatsapp { background-color: var(--accent-green); color: white; }
 
-        /* Gallery Section */
         .gallery-section {
             max-width: 1200px;
             margin: 40px auto;
             padding: 0 20px;
         }
 
+        .section-title {
+            text-align: center;
+            font-size: 26px;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
-            margin-top: 25px;
         }
 
         .gallery-card {
@@ -139,7 +150,6 @@
             height: 250px;
             object-fit: cover;
             display: block;
-            background-color: #eee;
         }
 
         .gallery-card-body {
@@ -158,26 +168,10 @@
             color: #666;
         }
 
-        /* Services Grid */
         .services-section {
             max-width: 1200px;
             margin: 40px auto;
             padding: 0 20px;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 26px;
-            color: var(--primary-color);
-            margin-bottom: 10px;
-            font-weight: 800;
-        }
-
-        .section-subtitle {
-            text-align: center;
-            font-size: 16px;
-            color: #666;
-            margin-bottom: 30px;
         }
 
         .grid {
@@ -220,7 +214,6 @@
             font-weight: bold;
         }
 
-        /* SEO Keywords Tags Section */
         .seo-tags-section {
             background: #fff;
             padding: 30px 20px;
@@ -246,7 +239,6 @@
             font-weight: 500;
         }
 
-        /* Fixed Bottom Bar for Mobile */
         .bottom-bar {
             position: fixed;
             bottom: 0;
@@ -283,7 +275,6 @@
 </head>
 <body>
 
-    <!-- Header -->
     <header>
         <div class="nav-container">
             <div class="logo">مبلط سيراميك ومعلم رخام بالرياض</div>
@@ -291,7 +282,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <h1>معلم سيراميك ومبلط بالرياض | تركيب رخام وتفصيل مغاسل</h1>
         <p>أفضل <strong>مبلط سيراميك بالرياض</strong> متمرس في أعمال <strong>تبليط سيراميك</strong> و<strong>معلم بلاط</strong>، بالإضافة إلى خدمات <strong>معلم تركيب رخام بالرياض</strong>، <strong>تفصيل مغاسل رخام طبيعي وصناعي</strong>، <strong>تركيب درج رخام</strong>، و<strong>تبليط مسابح وأحواش وأسطح وحمامات</strong> بأعلى مستويات الاتقان.</p>
@@ -301,7 +291,7 @@
         </div>
     </section>
 
-    <!-- Gallery Section (معرض صور عمال التركيب الحقيقية) -->
+    <!-- Gallery Section (صور عمال تركيب وبلاط حقيقية) -->
     <section class="gallery-section">
         <h2 class="section-title">معرض صور أعمال التركيب والتبليط</h2>
         <p class="section-subtitle">صور حية من مواقع العمل لعمالنا أثناء تركيب السيراميك والبورسلين والرخام</p>
@@ -309,58 +299,56 @@
         <div class="gallery-grid">
             
             <div class="gallery-card">
-                <!-- استبدل images/worker1.jpg برابط أو مسار صورتك -->
-                <img src="images/worker1.jpg" alt="عمال تركيب سيراميك وبورسلين" onerror="this.src='https://via.placeholder.com/400x250?text=ضع+صورة+عمال+تركيب+سيراميك+هنا'">
+                <img src="https://images.pexels.com/photos/5412270/pexels-photo-5412270.jpeg?auto=compress&cs=tinysrgb&w=800" alt="عامل يقوم بوضع الغراء وتركيب السيراميك">
                 <div class="gallery-card-body">
-                    <h4>عمال تركيب سيراميك وبورسلين</h4>
-                    <p>دقة وتثبيت ممتاز باستخدام أحدث الموازين وغراء البورسلين.</p>
+                    <h4>تركيب سيراميك وبورسلين أرضيات</h4>
+                    <p>فني متخصص أثناء وضع الغراء وضبط الميزان للسيراميك.</p>
                 </div>
             </div>
 
             <div class="gallery-card">
-                <img src="images/worker2.jpg" alt="معلم مبلط سيراميك وبورسلين" onerror="this.src='https://via.placeholder.com/400x250?text=ضع+صورة+مبلط+بورسلين+هنا'">
+                <img src="https://images.pexels.com/photos/6474123/pexels-photo-6474123.jpeg?auto=compress&cs=tinysrgb&w=800" alt="تركيب بلاط ورخام باليد والدقة">
                 <div class="gallery-card-body">
-                    <h4>تركيب بورسلين أرضيات مقاسات كبيرة</h4>
-                    <p>احترافية في التثبيت وتقفيل الصليب والفواصل بنظافة.</p>
+                    <h4>دقة تركيب وتثبيت البورسلين</h4>
+                    <p>استخدام موازين دقيقة لضمان استواء البلاط بدون أي بروز.</p>
                 </div>
             </div>
 
             <div class="gallery-card">
-                <img src="images/worker3.jpg" alt="عمال تركيب رخام وحمامات" onerror="this.src='https://via.placeholder.com/400x250?text=ضع+صورة+تبليط+حمامات+ورخام+هنا'">
+                <img src="https://images.pexels.com/photos/6474134/pexels-photo-6474134.jpeg?auto=compress&cs=tinysrgb&w=800" alt="عامل قص وتجهيز البلاط والسيراميك">
                 <div class="gallery-card-body">
-                    <h4>تبليط سيراميك ورخام جدران حمامات</h4>
-                    <p>تأسيس العزل وضبط ميول الصرف مع الضمان.</p>
+                    <h4>تجهيز وقص السيراميك والرخام</h4>
+                    <p>قص ليزر احترافي لتقفيل الزوايا والفواصل بنظافة.</p>
                 </div>
             </div>
 
             <div class="gallery-card">
-                <img src="images/worker4.jpg" alt="معلم تركيب درج رخام" onerror="this.src='https://via.placeholder.com/400x250?text=ضع+صورة+تركيب+درج+رخام+هنا'">
+                <img src="https://images.pexels.com/photos/8005397/pexels-photo-8005397.jpeg?auto=compress&cs=tinysrgb&w=800" alt="تركيب رخام وسيراميك حوائط حمامات">
                 <div class="gallery-card-body">
-                    <h4>تركيب وتفصيل درج رخام</h4>
-                    <p>قص وتثبيت الرخام للدرج مع الشطب والجلخ الاحترافي.</p>
+                    <h4>تبليط حوائط حمامات ومطابخ</h4>
+                    <p>تثبيت سيراميك ورخام جدران مع مراعاة العزل المائي.</p>
                 </div>
             </div>
 
             <div class="gallery-card">
-                <img src="images/worker5.jpg" alt="عمال تبليط أحواش ومسابح" onerror="this.src='https://via.placeholder.com/400x250?text=ضع+صورة+تبليط+أحواش+ومسابح+هنا'">
+                <img src="https://images.pexels.com/photos/6474471/pexels-photo-6474471.jpeg?auto=compress&cs=tinysrgb&w=800" alt="عمال تشطيب وتفصيل سيراميك وبلاط">
                 <div class="gallery-card-body">
-                    <h4>تبليط مسابح وأحواش بالرياض</h4>
-                    <p>تركيب بلاط الأحواش والمسابح المقاوم للعوامل الجوية.</p>
+                    <h4>تشطيب وفواصل سيراميك</h4>
+                    <p>حشو الفواصل والترويب بمواد عازلة ومقاومة للبكتيريا.</p>
                 </div>
             </div>
 
             <div class="gallery-card">
-                <img src="images/worker6.jpg" alt="تفصيل مغاسل رخام" onerror="this.src='https://via.placeholder.com/400x250?text=ضع+صورة+تفصيل+مغاسل+رخام+هنا'">
+                <img src="https://images.pexels.com/photos/5412271/pexels-photo-5412271.jpeg?auto=compress&cs=tinysrgb&w=800" alt="مبلط ممتاز تركيب أرضيات رخام">
                 <div class="gallery-card-body">
-                    <h4>تفصيل وتركيب مغاسل رخام</h4>
-                    <p>تفصيل مغاسل رخام طبيعي وصناعي بأحدث الموديلات.</p>
+                    <h4>تركيب رخام ودرج وأحواش</h4>
+                    <p>تنفيذ كافة أعمال الرخام للأرضيات والدرج والمغاسل بالرياض.</p>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <!-- Services Grid -->
     <section class="services-section">
         <h2 class="section-title">خدمات معلم السيراميك والرخام بالرياض</h2>
         <div class="grid">
@@ -406,7 +394,6 @@
         </div>
     </section>
 
-    <!-- Call To Action -->
     <section class="hero" style="background: var(--primary-color); padding: 40px 20px;">
         <h2>هل تحتاج معلم سيراميك ورخام ممتاز بالرياض؟</h2>
         <p>تواصل معنا اليوم للحصول على أفضل سعر وأعلى جودة للتنفيذ.</p>
@@ -415,7 +402,6 @@
         </div>
     </section>
 
-    <!-- SEO Keywords Section -->
     <section class="seo-tags-section">
         <h3 style="text-align:center; font-size:16px; margin-bottom:15px; color:#666;">الخدمات والكلمات الأكثر بحثاً</h3>
         <div class="tags-container">
@@ -441,7 +427,6 @@
         </div>
     </section>
 
-    <!-- Mobile Fixed Bottom Bar -->
     <div class="bottom-bar">
         <a href="tel:0574688407" class="bar-call">📞 اتصل الآن</a>
         <a href="https://wa.me/966574688407" class="bar-whatsapp">💬 واتساب direct</a>
