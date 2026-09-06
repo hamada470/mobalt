@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Meta Keywords & Description for SEO -->
     <title>معلم سيراميك ومبلط بالرياض | تفصيل مغاسل رخام وتبليط مسابح وأحواش</title>
     <meta name="description" content="أفضل معلم سيراميك ومبلط سيراميك بالرياض، متخصص في تبليط سيراميك، معلم بلاط، معلم رخام وتركيب رخام بالرياض، تفصيل مغاسل رخام طبيعي وصناعي، تركيب درج رخام، وتبليط مسابح وأحواش وأسطح وحمامات.">
     <meta name="keywords" content="معلم سيراميك, مبلط سيراميك, تبليط سيراميك, معلم بلاط, مبلط سيراميك بالرياض, معلم رخام, معلم تركيب رخام, معلم رخام بالرياض, مغاسل رخام, تفصيل مغاسل رخام, تفصيل مغاسل رخام صناعي, تفصيل مغاسل رخام طبيعي, تفصيل رخام, تركيب درج رخام, تفصيل درج رخام, تبليط مسابح, تبليط حمامات, تبليط أحواش, تبليط أسطح">
@@ -109,6 +108,55 @@
         .btn-call { background-color: var(--secondary-color); color: white; }
         .btn-whatsapp { background-color: var(--accent-green); color: white; }
 
+        /* Gallery Section */
+        .gallery-section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .gallery-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .gallery-card img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .gallery-card-body {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .gallery-card-body h4 {
+            color: var(--primary-color);
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .gallery-card-body p {
+            font-size: 14px;
+            color: #666;
+        }
+
         /* Services Grid */
         .services-section {
             max-width: 1200px;
@@ -118,10 +166,17 @@
 
         .section-title {
             text-align: center;
-            font-size: 24px;
+            font-size: 26px;
             color: var(--primary-color);
-            margin-bottom: 30px;
+            margin-bottom: 10px;
             font-weight: 800;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 30px;
         }
 
         .grid {
@@ -242,6 +297,64 @@
         <div class="cta-buttons">
             <a href="tel:0574688407" class="btn btn-call">📞 اتصل بنا: 0574688407</a>
             <a href="https://wa.me/966574688407" class="btn btn-whatsapp">💬 واتساب مباشر</a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <h2 class="section-title">معرض أعمال تركيب السيراميك والبورسلين والرخام</h2>
+        <p class="section-subtitle">صور حية لعمالنا أثناء تنفيذ أعمال التركيب والتبليط في الموقع</p>
+        
+        <div class="gallery-grid">
+            
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80" alt="عمال بتركب سيراميك أرضيات">
+                <div class="gallery-card-body">
+                    <h4>عمال تركيب سيراميك وبورسلين</h4>
+                    <p>دقة وتثبيت ممتاز باستخدام أفضل أنواع الغراء وموازين الليزر.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" alt="معلم مبلط بتركيب بورسلين">
+                <div class="gallery-card-body">
+                    <h4>تركيب بورسلين كبير الحجم</h4>
+                    <p>احترافية في تركيب ألواح البورسلين والسيراميك للأرضيات والجدران.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80" alt="عمال تركيب رخام وحمامات">
+                <div class="gallery-card-body">
+                    <h4>تركيب سيراميك ورخام حمامات</h4>
+                    <p>تنفيذ أعمال تبليط حمامات ومطابخ مع ضبط ميول الصرف والعزل.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" alt="معلم تركيب رخام ودرج">
+                <div class="gallery-card-body">
+                    <h4>معلم تركيب رخام ودرج</h4>
+                    <p>قص وتثبيت الرخام للدرج والأرضيات بدقة وتناسق تام في العروق.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="عمال تبليط أحواش ومسابح">
+                <div class="gallery-card-body">
+                    <h4>تبليط أحواش ومسابح</h4>
+                    <p>تركيب بلاط وسيراميك الأحواش والمسابح والأسطح بخبرة عالية.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?auto=format&fit=crop&w=800&q=80" alt="تجهيز وقص السيراميك والبورسلين">
+                <div class="gallery-card-body">
+                    <h4>تجهيز وقص السيراميك بالليزر</h4>
+                    <p>عمالة متخصصة في قص الزوايا وتقفيل الفواصل بنظافة وإتقان.</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
